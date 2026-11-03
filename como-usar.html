@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Como usar e dúvidas frequentes — Vitrine Rápida</title>
+  <meta name="description" content="Privacidade, como atualizar o catálogo, limites e dicas de fotos da Vitrine Rápida, o catálogo digital grátis com pedidos pelo WhatsApp.">
+  <meta name="theme-color" content="#6D4AFF">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Vitrine Rápida">
+  <meta property="og:title" content="Como usar a Vitrine Rápida — dúvidas frequentes">
+  <meta property="og:description" content="Tudo sobre privacidade, atualização do catálogo, QR code e limites.">
+  <meta property="og:image" content="https://nathan-kennedy.github.io/vitrine-rapida/docs/screenshots/editor-desktop.png">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%236D4AFF'/%3E%3Cpath d='M14 26h36l-3 24H17z' fill='%23fff'/%3E%3Cpath d='M24 26a8 8 0 0 1 16 0' fill='none' stroke='%23fff' stroke-width='4' stroke-linecap='round'/%3E%3Cpath d='M34 30l-8 10h6l-2 7 8-10h-6z' fill='%23FFB020'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap">
+  <link rel="stylesheet" href="assets/app.css">
+</head>
+<body class="page-faq">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="./" aria-label="Vitrine Rápida, início">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64" width="32" height="32"><rect width="64" height="64" rx="16" fill="#6D4AFF"/><path d="M14 26h36l-3 24H17z" fill="#fff"/><path d="M24 26a8 8 0 0 1 16 0" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/><path d="M34 30l-8 10h6l-2 7 8-10h-6z" fill="#FFB020"/></svg>
+        </span>
+        <span class="brand-name">Vitrine <b>Rápida</b></span>
+      </a>
+      <nav class="topnav" aria-label="Principal">
+        <a href="./#como-funciona">Como funciona</a>
+        <a href="como-usar.html" aria-current="page">Dúvidas</a>
+        <a class="btn btn-primary btn-sm" href="./#editor">Criar meu catálogo</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <div class="container">
+      <div class="faq-head">
+        <h1>Como usar e dúvidas frequentes</h1>
+        <p>A Vitrine Rápida não tem servidor nem cadastro. Entenda como isso funciona na prática e como tirar o melhor proveito do seu catálogo.</p>
+      </div>
+
+      <div class="faq-layout">
+        <nav class="faq-toc" aria-label="Tópicos">
+          <a href="#privacidade">🔒 Privacidade</a>
+          <a href="#atualizar">🔄 Atualizar o catálogo</a>
+          <a href="#qr">📱 QR code e cartaz</a>
+          <a href="#limites">📏 Limites</a>
+          <a href="#fotos">📸 Dicas de fotos</a>
+        </nav>
+
+        <div class="faq">
+          <section class="faq-group" id="privacidade" aria-labelledby="h-priv">
+            <h2 id="h-priv"><span aria-hidden="true">🔒</span> Privacidade</h2>
+            <details open>
+              <summary>Onde ficam os dados da minha loja?</summary>
+              <div class="answer">
+                <p>Em dois lugares, e nenhum deles é um servidor nosso:</p>
+                <ul>
+                  <li><strong>No seu navegador</strong>, enquanto você edita (salvo automaticamente no <em>localStorage</em> do aparelho).</li>
+                  <li><strong>Dentro do próprio link</strong> da loja. O catálogo é compactado e vai depois do <code>#</code> do endereço — essa parte nem é enviada ao servidor que hospeda o site.</li>
+                </ul>
+              </div>
+            </details>
+            <details>
+              <summary>Quem pode ver o meu catálogo?</summary>
+              <div class="answer">
+                <p>Qualquer pessoa que tiver o link (ou escanear o QR code) consegue ver tudo o que está no catálogo. Por isso, <strong>não coloque dados sensíveis</strong>: nada de CPF, senhas, dados de clientes ou informações internas.</p>
+                <p>Para a chave Pix, prefira e-mail, telefone ou chave aleatória.</p>
+              </div>
+            </details>
+            <details>
+              <summary>E os dados dos meus clientes?</summary>
+              <div class="answer">
+                <p>O nome, endereço e pedido que o cliente preenche não passam por nenhum servidor: o navegador dele monta a mensagem e abre o WhatsApp. A sacola fica guardada só na aba do navegador do cliente e some ao fechá-la.</p>
+              </div>
+            </details>
+            <details>
+              <summary>Se eu limpar o navegador, perco o catálogo?</summary>
+              <div class="answer">
+                <p>A cópia do editor, sim. Por isso use o botão <strong>Exportar backup (.json)</strong> de vez em quando e guarde o arquivo (no Google Drive, por exemplo). Você também pode recuperar o catálogo colando o link da loja em <strong>Importar backup → Link da loja</strong>.</p>
+              </div>
+            </details>
+          </section>
+
+          <section class="faq-group" id="atualizar" aria-labelledby="h-atual">
+            <h2 id="h-atual"><span aria-hidden="true">🔄</span> Atualizar o catálogo</h2>
+            <details open>
+              <summary>Mudei um preço. O que faço?</summary>
+              <div class="answer">
+                <p>Edite no editor e clique em <strong>Gerar link da loja</strong> de novo. Como o catálogo vive dentro do link, <strong>cada versão do catálogo tem um link diferente</strong>. Compartilhe o novo link no status, na bio e nos grupos.</p>
+              </div>
+            </details>
+            <details>
+              <summary>E o QR code que eu já imprimi?</summary>
+              <div class="answer">
+                <p>O QR antigo continua abrindo a <strong>versão antiga</strong> do catálogo. Você tem duas saídas:</p>
+                <ul>
+                  <li><strong>Recomendado:</strong> use um encurtador de links que permita <em>editar o destino</em>. Imprima o QR do link curto e, quando atualizar o catálogo, só troque o destino no encurtador. O cartaz nunca precisa ser reimpresso.</li>
+                  <li>Ou gere um novo cartaz e reimprima sempre que mudar algo importante.</li>
+                </ul>
+              </div>
+            </details>
+            <details>
+              <summary>Como marcar um produto que acabou?</summary>
+              <div class="answer">
+                <p>Abra o produto e ligue a opção <strong>Esgotado</strong>. Ele continua aparecendo, mas não pode ser adicionado à sacola. Lembre-se de gerar o link de novo.</p>
+              </div>
+            </details>
+          </section>
+
+          <section class="faq-group" id="qr" aria-labelledby="h-qr">
+            <h2 id="h-qr"><span aria-hidden="true">📱</span> QR code e cartaz</h2>
+            <details open>
+              <summary>Por que o QR code ficou cheio de quadradinhos?</summary>
+              <div class="answer">
+                <p>Porque ele carrega o catálogo inteiro. Quanto mais produtos e descrições, mais denso fica. QRs densos funcionam bem impressos grandes (como no cartaz A5/A4), mas podem falhar em celulares simples ou com pouca luz.</p>
+                <p>A solução é usar um <strong>link encurtado</strong>: cole-o na janela do QR code e o QR fica simples e fácil de ler.</p>
+              </div>
+            </details>
+            <details>
+              <summary>Como imprimir o cartaz?</summary>
+              <div class="answer">
+                <p>Clique em <strong>Baixar cartaz para imprimir</strong>. Você pode baixar a imagem em alta resolução (formato A5, também serve para A4) ou imprimir direto. Teste a leitura com a câmera de 2 ou 3 celulares antes de imprimir vários.</p>
+              </div>
+            </details>
+          </section>
+
+          <section class="faq-group" id="limites" aria-labelledby="h-lim">
+            <h2 id="h-lim"><span aria-hidden="true">📏</span> Limites</h2>
+            <details open>
+              <summary>Quantos produtos posso cadastrar?</summary>
+              <div class="answer">
+                <p>Não há um número fixo, mas o link cresce com o catálogo. Até uns 40 ou 50 produtos com descrições curtas o link fica tranquilo. Acima de ~6.000 caracteres, alguns aplicativos podem cortar o link — o editor avisa quando isso acontece.</p>
+                <p>Para diminuir: encurte descrições, remova links de fotos e evite categorias vazias.</p>
+              </div>
+            </details>
+            <details>
+              <summary>Dá para receber pagamento online?</summary>
+              <div class="answer">
+                <p>Não. A Vitrine Rápida não processa pagamentos. O cliente informa a forma de pagamento no pedido e paga direto para você (Pix, dinheiro ou cartão na entrega/retirada).</p>
+              </div>
+            </details>
+            <details>
+              <summary>Tem controle de estoque?</summary>
+              <div class="answer">
+                <p>Não há controle automático. Você marca manualmente os itens esgotados e gera um novo link. Confirme sempre a disponibilidade quando receber o pedido.</p>
+              </div>
+            </details>
+            <details>
+              <summary>Funciona sem internet?</summary>
+              <div class="answer">
+                <p>O cliente precisa de internet para abrir a página e o WhatsApp. O editor funciona normalmente depois de carregado.</p>
+              </div>
+            </details>
+          </section>
+
+          <section class="faq-group" id="fotos" aria-labelledby="h-fotos">
+            <h2 id="h-fotos"><span aria-hidden="true">📸</span> Dicas de fotos</h2>
+            <details open>
+              <summary>Como coloco fotos nos produtos?</summary>
+              <div class="answer">
+                <p>Como não há servidor, a foto precisa estar publicada em algum lugar com um <strong>link direto para a imagem</strong> (que termina em .jpg, .png ou .webp e começa com https://). Cole esse link no campo “Foto” do produto.</p>
+                <p>Se a imagem sair do ar, a vitrine mostra o emoji do produto no lugar — nada quebra.</p>
+              </div>
+            </details>
+            <details>
+              <summary>Dicas para fotos que vendem</summary>
+              <div class="answer">
+                <ul>
+                  <li>Use luz natural, perto de uma janela, e evite o flash.</li>
+                  <li>Fundo simples (mesa de madeira, pano liso ou parede clara).</li>
+                  <li>Enquadre de perto e de forma quadrada ou horizontal.</li>
+                  <li>Imagens leves (até ~200 KB) carregam rápido no 4G.</li>
+                  <li>Sem foto? Um emoji bem escolhido já deixa o cardápio bonito e o link menor.</li>
+                </ul>
+              </div>
+            </details>
+          </section>
+
+          <div class="callout">
+            <div>
+              <strong>Pronto para montar a sua?</strong>
+              <p class="muted">Leva poucos minutos e é grátis.</p>
+            </div>
+            <a class="btn btn-primary" href="./#editor">Criar meu catálogo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <a class="brand brand--footer" href="./"><span class="brand-name">Vitrine <b>Rápida</b></span></a>
+        <p class="muted">Catálogo digital gratuito para o comércio local. Feito sem servidor: o catálogo vive no próprio link.</p>
+      </div>
+      <nav class="footer-links" aria-label="Rodapé">
+        <a href="./#editor">Criar catálogo</a>
+        <a href="#privacidade">Privacidade</a>
+        <a href="assets/vendor/NOTICE.txt">Créditos e licenças</a>
+      </nav>
+      <p class="credit">Desenvolvido por <a href="https://www.facebook.com/share/192dd6MgjS/" target="_blank" rel="noopener">Nathan Kennedy</a></p>
+    </div>
+  </footer>
+</body>
+</html>
